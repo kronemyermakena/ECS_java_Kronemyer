@@ -30,6 +30,5 @@ public class VariablesAndNames
 			
 					//If you just put 4 instead of 4.0 the answers don't change. The difference between = and == is that == is an equal to operator, 
 					//while = just assigns an expression to a variable.
-				
 	} 
 } 
