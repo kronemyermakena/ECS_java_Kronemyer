@@ -1,0 +1,17 @@
+public class FirstProg 
+{
+	
+	public static void main(String[] args)
+	{
+		system.out.println("Hello World!");
+		system.out.println("Hello Again.");
+		system.out.println("I like typing this.");
+		system.out.println("This is fun.");
+		system.out.println("Yay! Printing.);
+		system.out.println("I'd much rather you 'not'.");
+		system.out.println("I /"said/" do not touch this.");
+			
+		}
+		
+}
+		
