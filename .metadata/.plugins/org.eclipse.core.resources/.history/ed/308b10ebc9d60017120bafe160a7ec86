@@ -17,6 +17,6 @@ public class UsingVariables
 				System.out.println( "I am learning a bit about computer science" );
 		
 	}
- 
+
 	
 } 
