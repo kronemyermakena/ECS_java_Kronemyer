@@ -20,6 +20,6 @@ public class NumbersAndMath
 						System.out.println("Is it greater or equal? " + ( 5 >= -2 ));
 						System.out.println("Is it less or equal? " + ( 5 <= -2 ));
 						}
-	 
+	
 }
 
