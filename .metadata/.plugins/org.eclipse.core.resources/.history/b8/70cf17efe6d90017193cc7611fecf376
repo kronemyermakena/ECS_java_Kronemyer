@@ -11,4 +11,4 @@ public class StillUsingVariables
 				System.out.println(" My name is " + myName + " and I'll graduate in " + mygradYear  );
 				
 	}
-} 
+}

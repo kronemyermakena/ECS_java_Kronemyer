@@ -8,7 +8,6 @@ INDEX VERSION 1.130+C:\Users\kronemyerm9286\Desktop\ECS_java_Kronemyer\.metadata
 3184717171.index
 349556966.index
 3398816544.index
-2053087335.index
 2330857962.index
 1442487239.index
 4237918392.index

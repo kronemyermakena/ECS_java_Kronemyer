@@ -19,7 +19,6 @@ public class YourSchedule
 				System.out.println(" |   Per 2   | " +  PER2  +  "   | " +  T2 + "    |  ");
 				System.out.println(" |   Per 3   | " +  PER3  +  " | " +  T3 + "  |  ");
 				System.out.println(" |   Per 4   |" +  PER4  +  "    | " + T4 + "      | " );
-				
 		
 		
 		
