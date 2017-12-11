@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class ALittleQuiz
+{
+		public static void main (String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+			
+			String answer, A, B, C, D, E, F, G, H;
+			A = "Melbourne";
+			B = "Anchorage";
+			C = "Juneau ";
+			D = "Yes";
+			E = "No";
+			F = "5";
+			G = "11";
+			H = "15/3";
+			
+				System.out.println(" Q1 : What is the capitalof Alaska? " + " Answer choice one: " + A + ", Answer choice two: " + B + ", Answer choice three" + C );
+			
+					
+	
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+		
+}
+	
+ 

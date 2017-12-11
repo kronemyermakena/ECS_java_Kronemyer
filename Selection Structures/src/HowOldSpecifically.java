@@ -19,30 +19,30 @@ import java.util.Scanner;
 				
 					if ( age < 16 )
 					{
-						System.out.println(" You can't drive. ");
+						System.out.println(" Okay " + name + " You can't drive. ");
 						age = keyboard.nextInt(); 
-						keyboard.close();
+						
 					}
 
 					if ( age>=16&&age<17 )
 					{
-						System.out.println(" You can drive but not vote ");
+						System.out.println( name + ", You can drive but not vote. ");
 						age = keyboard.nextInt(); 
-						keyboard.close();
+						
 					}
 	
 					if ( age>=18&&age<24 )
 					{
-						System.out.println(" You can vote but not rent a car. ");
+						System.out.println( "Alright, " + name + ", You can vote but not rent a car. ");
 						age = keyboard.nextInt(); 
-						keyboard.close();
+						
 					}
 	
 					if ( age > 25 )
 					{
-						System.out.println(" You can do whatever you want ");
+						System.out.println(" Well, " + name + ", You can pretty much do whatever you want. ");
 						age = keyboard.nextInt(); 
-						keyboard.close();
+						
 					}
 					
 	

@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+	public class SpaceBoxing
+{
+		public static void main(String[] args)
+	{
+			Scanner keyboard = new Scanner(System.in);
+			String planet;
+			int 1, 2, 3, 4, 5, 6, weight;
+			1 = 0.78;
+			2 = 0.39;
+			3 = 2.65;
+			4 = 1.17;
+			5 = 1.05;
+			6 = 1.23;
+			
+			
+				System.out.println(" Please enter your current weight " );
+				weight = keyboard.nextInt();
+				
+				System.out.println(" I have information for the following planets: 1. Venus 2. Mars 3. Jupiter 4. Saturn 5. Uranus 6. Neptune " );
+				
+				if(planet.equals("venus"))
+				{
+					System.out.println( " " );
+				}
+		
+	
+	}
+
+}
+	
+ 
+				
+			
