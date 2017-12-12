@@ -16,7 +16,7 @@ public class ALittleQuiz
 			A5 = "No";
 			A6 = 5;
 			A7 = 11;
-			A8= 15;
+			A8= (15/3);
 			
 				System.out.println(" Q1 : What is the capital of Alaska? " );
 				System.out.println(" Answer choice A: " + A1 + ", Answer choice B: " + A2 + ", Answer choice C: " + A3 );
@@ -76,7 +76,7 @@ public class ALittleQuiz
 						
 						if(answer.equals("A8"));
 						{
-							System.out.println(" Use PEMDAS to help you solve equations. ");
+							System.out.println(" Use PEMDAS to help you solve the equation. ");
 						}
 	
 	

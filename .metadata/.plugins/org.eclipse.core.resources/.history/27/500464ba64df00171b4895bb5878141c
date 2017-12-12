@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+public class ALittleQuiz
+{
+		public static void main (String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+			
+			String A, B, C, D, E, F, G, H, answer;
+			A = "Melbourne";
+			B = "Anchorage";
+			C = "Juneau ";
+			D = "Yes";
+			E = "No";
+			F = "5";
+			G = "11";
+			H = "15/3";
+			
+				System.out.println(" Q1 : What is the capital of Alaska? " );
+				System.out.println(" Answer choice A: " + A + ", Answer choice B: " + B + ", Answer choice C: " + C );
+				System.out.println(" What is the answer? ");
+				answer = keyboard.next();
+				
+				
+				ifelse(answer.equals("A"));
+				{
+					System.out.println(" Sorry, but " + A +  " is not the correct answer. The capital of Alaska is Juneau. ");
+				}
+					
+				
+				while(answer.equals("B"));
+				{
+					System.out.println(" Sorry, but " + B + " is not the correct answer. The capital of Alaska is Juneau. ");
+				}
+	
+				
+				whileelse(answer.equals("C"));
+				{
+					System.out.println(" Yes, " + C + " is the capital of Alaska. " );
+				}
+	
+	
+					System.out.println(" Q2 : Can you store the value of cat in a variable of type int? " );
+					System.out.println(" Answer choice D " + D + " , Answer choice E: " + E );
+					System.out.println(" What is the answer? ");
+					answer = keyboard.next();
+					
+					
+					if(answer.equals("D"));
+					{
+						System.out.println(" Sorry, but that's not the correct answer. Cat is a string, and ints can only store numbers. ");
+					}
+	
+					if(answer.equals("E"));
+					{
+						System.out.println(" Yes that's the correct answer. ");
+					}
+	
+	}
+
+		
+}
+	
+ 

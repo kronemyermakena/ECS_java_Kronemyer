@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class ALittleQuiz
+{
+		public static void main (String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+			
+			
+			Int 1, 2, 3, 4, 5, 6, 7, 8, answer;
+			1 = "Melbourne";
+			2 = "Anchorage";
+			3 = "Juneau ";
+			4 = "Yes";
+			5 = "No";
+			6 = "5";
+			7 = "11";
+			8= "15/3";
+			
+				System.out.println(" Q1 : What is the capital of Alaska? " );
+				System.out.println(" Answer choice 1: " + 1 + ", Answer choice 2: " + 2 + ", Answer choice 3: " + 3 );
+				System.out.println(" What is the " + answer );
+				answer = keyboard.nextInt();
+				
+				
+				if ( answer = 1 );
+				{
+					System.out.println(" Sorry, but " + 1 +  " is not the correct answer. The capital of Alaska is Juneau. ");
+				}
+					
+				
+				if ( answer = 2 );
+				{
+					System.out.println(" Sorry, but " + 2 + " is not the correct answer. The capital of Alaska is Juneau. ");
+				}
+	
+				
+				if ( answer = 3 );
+				{
+					System.out.println(" Yes, " + 3 + " is the capital of Alaska. " );
+				}
+	
+	
+					System.out.println(" Q2 : Can you store the value of cat in a variable of type int? " );
+					System.out.println(" Answer choice D " + 4 + " , Answer choice E: " + 5 );
+					System.out.println(" What is the answer? ");
+					answer = keyboard.next();
+					
+					
+					if(answer.equals("4"));
+					{
+						System.out.println(" Sorry, but that's not the correct answer. Cat is a string, and ints can only store numbers. ");
+					}
+	
+					if(answer.equals("5"));
+					{
+						System.out.println(" Yes that's the correct answer. ");
+					}
+	
+	}
+
+		
+}
+	
+ 

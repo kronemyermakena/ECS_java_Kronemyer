@@ -16,11 +16,11 @@ public class ALittleQuiz
 			A5 = "No";
 			A6 = 5;
 			A7 = 11;
-			A8= 15;
+			A8= 15/3;
 			
 				System.out.println(" Q1 : What is the capital of Alaska? " );
-				System.out.println(" Answer choice A: " + A1 + ", Answer choice B: " + A2 + ", Answer choice C: " + A3 );
-				System.out.println(" What is the answer? " );
+				System.out.println(" Answer choice 1: " + A1 + ", Answer choice 2: " + A2 + ", Answer choice 3: " + A3 );
+				System.out.println(" What is the answer " );
 				answer = keyboard.next();
 				
 				
@@ -32,7 +32,7 @@ public class ALittleQuiz
 				
 				if ( answer.equals("A2"));
 				{
-					System.out.println(" Sorry, but " + A2 + " is not the correct answer. ");
+					System.out.println(" Sorry, but " + A2 + " is not the correct answer. The capital of Alaska is Juneau. ");
 				}
 	
 				
@@ -50,36 +50,13 @@ public class ALittleQuiz
 					
 					if(answer.equals("A4"));
 					{
-						System.out.println(" Sorry, but that's not the correct answer. ");
+						System.out.println(" Sorry, but that's not the correct answer. Cat is a string, and ints can only store numbers. ");
 					}
 	
 					if(answer.equals("A5"));
 					{
-						System.out.println(" Cat is a string, and ints can only store numbers. ");
+						System.out.println(" Yes that's the correct answer. ");
 					}
-	
-					
-						System.out.println(" Q3 : What is the result of 9+6/3? ");
-						System.out.println(" Answer choice F: " + A6 + ", Answer choice G: " + A7 + " Answer choice H: " + A8 );
-						System.out.println(" What is the answer? ");
-						answer = keyboard.next();
-						
-						if(answer.equals("A6"));
-						{
-							System.out.println(" 5 isn't the corrct answer. ");
-						}
-						
-						if(answer.equals("A7"));
-						{
-							System.out.println(" The correct answer is 11 ");
-						}
-						
-						if(answer.equals("A8"));
-						{
-							System.out.println(" Use PEMDAS to help you solve equations. ");
-						}
-	
-	
 	
 	}
 
