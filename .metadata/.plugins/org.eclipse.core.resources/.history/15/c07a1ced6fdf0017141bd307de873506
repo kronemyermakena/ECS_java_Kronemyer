@@ -1,0 +1,35 @@
+
+import java.util.Random;
+import java.util.Scanner;
+ 
+public class HiLow
+{
+	public static void main ( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		double myNumber, yourNumber;
+		 
+	
+		
+		
+		System.out.println(" I'm thinking of a number between 1-100. Try to guess it! ");
+		myNumber = keyboard.nextInt();
+		
+			if (  myNumber < 50 )
+			{
+				System.out.println(" Sorry, you're too low. ");
+			}
+	
+			else if ( myNumber > 50 )
+			{
+				System.out.println(" Sorry, you're too high. ");
+			}
+	
+			else if ( myNumber>=49&&myNumber<51);
+			{
+				System.out.println(" You guessed it! What are the odds?! ");
+			}
+	
+	}
+}
+		

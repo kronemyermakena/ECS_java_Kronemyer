@@ -1,4 +1,5 @@
 
+import java.util.Random;
 import java.util.Scanner;
 
 	public class HowOldSpecifically
@@ -15,7 +16,7 @@ import java.util.Scanner;
 				System.out.println("Age: ");
 				age = keyboard.nextInt();
 			
-			
+					
 				
 					if ( age < 16 )
 					{

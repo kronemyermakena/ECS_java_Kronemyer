@@ -1,0 +1,23 @@
+
+import java.util.Random;
+ 
+public class HiLow
+{
+	public static void main ( String[] args )
+	{
+		
+		Int myNumber;
+	
+		System.out.println(" I'm thinking of a number between 1-100. Try to guess it! ");
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	}
+}
+		
