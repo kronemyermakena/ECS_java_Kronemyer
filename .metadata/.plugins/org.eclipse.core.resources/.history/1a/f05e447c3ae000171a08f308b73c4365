@@ -1,0 +1,29 @@
+
+import java.util.Random;
+
+public class HiLow
+{
+	public static void main ( String[] args )
+	{
+		Random r = new Random( );
+		int roll1 = 1 + r.nextInt(6), roll2 = 1 + r.nextInt(6), answer;
+		String response = "";
+		
+		
+		System.out.println(" Here comes the dice ! ");
+		
+			if ( answer > choice )
+			
+			System.out.println( response + "  too high." );
+			
+			else if ( answer < choice )
+		
+				System.out.println( response + " too low." );
+			
+			else 
+				System.out.println( response + " that's it! What are the odds?!" );
+		
+
+	}
+}
+		

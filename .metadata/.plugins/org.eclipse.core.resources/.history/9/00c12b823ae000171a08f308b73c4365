@@ -1,0 +1,20 @@
+
+import java.util.Random;
+
+public class HiLow
+{
+	public static void main ( String[] args )
+	{
+		Random r = new Random( );
+		int roll1 = 1 + r.nextInt(6), roll2 = 1 + r.nextInt(6), total;
+		total = roll1 + roll2;
+		
+		
+		System.out.println(" Here comes the dice ! ");
+		System.out.println( roll1 + roll2 );
+		System.out.println(" The total is " + total );
+		
+
+	}
+}
+		
