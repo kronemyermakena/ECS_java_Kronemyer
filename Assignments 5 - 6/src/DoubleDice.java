@@ -1,0 +1,21 @@
+
+import java.util.Random;
+
+public class DoubleDice
+{
+	public static void main ( String[] args )
+	{
+		Random r = new Random( );
+		int roll1 = 1 + r.nextInt(6), roll2 = 1 + r.nextInt(6), total;
+		total = roll1 + roll2;
+		
+			
+			do {
+	    			System.out.println(" Here comes the dice ! ");
+	    			System.out.println(" the first roll is " + roll1 );
+	    			System.out.println(" The second roll is " + roll2 );
+	    			System.out.println(" So, the total is " + total + "!" );
+	
+			} while ( roll1 != roll2 );
+	}
+}	
