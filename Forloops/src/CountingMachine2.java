@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
-	public class CountingMachine
+	public class CountingMachine2
 {
 		public static void main(String[] args)
 	{
+			int yourNumber;
 			Scanner keyboard = new Scanner(System.in);
-			System.out.println( " Type in a message, and I'll display it five times. ");
-			System.out.print(" Message: " );
+			System.out.println( " What number ? ");
+			yourNumber = keyboard.nextInt();
+			System.out.print(" here's the list: " );
 			
 		String message = keyboard.nextLine();
 		
-		for ( int n = 2; n <= 20 ; n = n+3 )
+		for ( int n = 0; n <= yourNumber ; n = n+1 )
 		{
 			System.out.println( n + ". " + message);
 		}
