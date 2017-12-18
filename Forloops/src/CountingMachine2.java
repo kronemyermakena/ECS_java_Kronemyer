@@ -6,13 +6,13 @@ import java.util.Scanner;
 	{
 			int yourNumber;
 			Scanner keyboard = new Scanner(System.in);
-			System.out.println( " What number ? ");
+			System.out.println( " Give me a number and I'll count to it. ");
 			yourNumber = keyboard.nextInt();
 			System.out.print(" here's the list: " );
 			
 		String message = keyboard.nextLine();
 		
-		for ( int n = 0; n <= yourNumber ; n = n+1 )
+		for ( int n = 1; n <= yourNumber ; n = n+1 )
 		{
 			System.out.println( n + ". " + message);
 		}

@@ -10,7 +10,7 @@ import java.util.Scanner;
 			
 		String message = keyboard.nextLine();
 		
-		for ( int n = 1; n <= 5 ; n = n+1 )
+		for ( int n = 0; n <= 5 ; n = n+1 )
 		{
 			System.out.println( n + ". " + message);
 		}
